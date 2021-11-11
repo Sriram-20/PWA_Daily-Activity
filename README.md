@@ -3,4 +3,4 @@ Progressive Web Application(PWA) is used to develop a web application which can 
 
 
 # Run
-Inorder to run this application we need to install nodejs in the system or you can use live server in VS Code.
+Inorder to run this application we need to install nodejs in the system or we can use live server in VS Code.
