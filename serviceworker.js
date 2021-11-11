@@ -30,25 +30,5 @@ self.addEventListener('fetch', event => {
     }); 
 
 
-// Cache First 
-// self.addEventListener("fetch", event => {
-//     event.respondWith(
-//         caches.match(event.request)    // searching in the cache
-//             .then( response => {
-//                 if (response) {
-//                     // The request is in the cache, CACHE HIT
-//                     return response;
-//                 } else {
-//                     // We need to go to the network, CACHE MISS 
-//                     return fetch(event.request);
-//                 }
-//             })
-//     );
-// });
 
 
-// Synthesizing responses
-// self.addEventListener("fetch", event => {
-//     const response = new Response(`service worker responding for ${event.request.url}`);
-//     event.respondWith(response); // HTTP response, or a promise of an HTTP response
-// });
