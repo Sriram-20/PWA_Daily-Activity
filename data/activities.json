@@ -1,0 +1,71 @@
+{
+    "title": "Deckard Shaw's Daily Shortcuts",
+    "activities": [
+        {
+            "name": "Call Emergencies",
+            "type": "phonecall",
+            "phone": "108"
+        },
+        {
+            "name": "Instagram",
+            "type": "link",
+            "url": "https://www.instagram.com/"
+        },
+        {
+            "name": "I'm Late!",
+            "type": "message",
+            "body": "I'm arriving 15 minutes late"
+        },
+        {
+            "name": "Dinner time",
+            "icon": "restaurant",
+            "type": "message",
+            "to": "+919898989898",
+            "body": "What do you want for dinner?"
+        },
+        {
+            "name": "Rockfort",
+            "type": "maps",
+            "place": "Rockfort, Tiruchirappalli, India"
+        },
+        {
+            "name": "Drive to Work",
+            "type": "navigation",
+            "from": "10 Market St., San Francisco",
+            "to": "Google Headquarters, Mountain View"
+        },
+        {
+            "name": "Transit to Park",
+            "type": "navigation-transit",
+            "to": "Central Park, Manhattan"
+        },
+        {
+            "name": "Walk Routine",
+            "type": "navigation-walk",
+            "from": "Recoleta, Buenos Aires",
+            "to": "Obelisco, Buenos Aires"
+        },
+        {
+            "name": "Google Meet for School",
+            "icon": "school",
+            "type": "link",
+            "url": "https://meet.google.com/replace-with-id"
+        },
+        {
+            "name": "WA: I'm Late!",
+            "type": "whatsapp",
+            "body": "I'm arriving 15 minutes late"
+        },
+        {
+            "name": "WA: Dinner time",
+            "type": "whatsapp",
+            "to": "+919898989898",
+            "body": "What do you want for dinner?"
+        },
+        {
+            "name": "Uber home",
+            "type": "uber",
+            "to": "Rockfort"
+        }
+    ]
+}
